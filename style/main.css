@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+.container {
+  width: 100%;
+  max-height: 1248px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.sub__header {
+  width: 100%;
+  height: 47px;
+  background: #b36050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub__header p {
+  color: rgba(241, 211, 185, 1);
+  font-size: 17px;
+  font-weight: 400;
+}
+.header {
+  background: #f6f4ec;
+}
+.navbar {
+  padding: 30px;
+  height: 71px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.navbar__logo {
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar__collection {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  color: #b36050;
+}
+.navbar__icon {
+  color: #b36050;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.navbar__cart {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.hero {
+  width: 100%;
+  height: 435px;
+}
+.hero__image {
+  width: 100%;
+  height: 435px;
+  display: flex;
+  object-fit: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero__bottom {
+  width: 100%;
+  height: 304px;
+  background: rgba(169, 174, 141, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.hero__desc {
+  color: #f6f4ec;
+  font-size: 18px;
+}
+.hero__title {
+  color: #f6f4ec;
+  font-size: 33px;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background: #b45f4d;
+  color: #fff;
+  font-size: 17px;
+}
+.deadream__part {
+  width: 100%;
+}
+.heading__card {
+  width: 100%;
+  height: 93px;
+  background: #f6f4ec;
+  color: #bc7261;
+  font-weight: 400;
+  font-size: 23px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.heading__title {
+  font-weight: 400;
+  font-size: 23px;
+}
+.dream__section {
+  width: 100%;
+  height: 742px;
+  background: #f6f4ec;
+  display: flex;
+  justify-content: center;
+}
+.daedreamer__pict {
+  margin-right: 125px;
+}
+.shampoo {
+  width: 340px;
+  height: 510px;
+  margin-top: 43px;
+  margin-left: 125px;
+}
+.daed__text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #b36050;
+  margin-top: 35px;
+}
+.daed__price {
+  font-weight: 400;
+  font-size: 16px;
+  color: #b36050;
+  margin-top: 20px;
+}
+.parfume {
+  width: 100%;
+  height: 487px;
+  display: flex;
+  justify-content: center;
+}
+.parfume__img {
+  margin: 34px 130px 0px 175px;
+  width: 1200px;
+  background: url(../assets/atirlar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.text__img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 29px;
+  padding-right: 29px;
+  font-size: 20px;
+  color: #f6f4ec;
+  margin-top: 300px;
+  width: 100%;
+  height: 100px;
+  background: #b36050;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 914px;
+  background: #f1d3b9;
+  gap: 204px;
+  padding-left: 50px;
+  margin-bottom: 55px;
+}
+.card__text {
+  color: #b45f4d;
+}
+.card__img {
+  width: 500px;
+  height: 750px;
+  margin-top: 96px;
+}
+.text__title {
+  color: #b45f4d;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.text__end {
+  margin-top: 100px;
+}
+.text {
+  width: 500px;
+  height: 750px;
+  background: #fff;
+  margin-top: 96px;
+  align-items: center;
+  padding: 134px 42px;
+}
+.title__text {
+  gap: 50px;
+  font-size: 19px;
+}
+.end__title {
+  width: 100px;
+}
+.end__texr {
+  margin-bottom: 23px;
+  text-align: center;
+  font-size: 23px;
+}
+.cards__end {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 20px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  background: #f6f4ec;
+}
+.footer__text1 {
+  width: 25%;
+  padding: 0 0 0 170px;
+}
+.footer__text2 {
+  width: 25%;
+}
+.footer__title {
+  list-style: none;
+  text-align: left;
+}
+.footer__li {
+  margin-bottom: 12px;
+  color: #b36050;
+}
+.footer__input {
+  width: 50%;
+  padding: 0 0 0 100px;
+  color: #b36050;
+}
+.footer__imp {
+  margin-bottom: 20px;
+  height: 44px;
+  width: 462px;
+  border: 1px solid #b36050;
+}
+.end {
+  width: 100%;
+  border-top: 1px solid #b36050;
+  padding: 18px;
+  text-align: center;
+  color: #b36050;
+}
+
+.sub__header p:hover {
+  cursor: pointer;
+}
+.hero__desc:hover {
+  cursor: pointer;
+  color: #b36050;
+}
+.hero__title:hover {
+  cursor: pointer;
+  color: #b36050;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.heading__title:hover {
+  cursor: pointer;
+  color: #b36050;
+}
+.section__image:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.daed__text:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.daed__price:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.text__img:hover {
+  cursor: pointer;
+}
+.parfume__text:hover {
+  cursor: pointer;
+  color: gold;
+}
+.image:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+}
+.text:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+}
+.end__texr:hover {
+  color: #b36050;
+  cursor: pointer;
+}
+.cards__image:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.footer__li:hover {
+  cursor: pointer;
+}
+.end__footer:hover {
+  cursor: pointer;
+}
